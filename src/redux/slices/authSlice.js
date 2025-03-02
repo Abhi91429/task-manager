@@ -3,7 +3,11 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   user: localStorage.getItem("userInfo")
     ? JSON.parse(localStorage.getItem("userInfo"))
+<<<<<<< HEAD
     : { name: "Test User", email: "test@example.com", token: "dummy-token" }, // Dummy user
+=======
+    :  { name: "Test User", email: "test@example.com", token: "dummy-token" }, // Dummy user
+>>>>>>> 1d0aa66ab5ff01695bd03d893b745b0ff8356760
 
   isSidebarOpen: false,
 };
