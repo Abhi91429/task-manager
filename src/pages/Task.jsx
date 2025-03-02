@@ -1,9 +1,5 @@
-import React from 'react'
-
 const Task = () => {
-  return (
-    <div>Task</div>
-  )
-}
+  return <div>Task</div>;
+};
 
-export default Task
+export default Task;
